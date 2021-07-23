@@ -287,8 +287,11 @@ a{
 .footer .info:hover{
     font-weight: bold;
 }
-.footer .info img{
+.footer .info .phone_icon{
     margin-right: 22px;
+}
+.footer .info .mail_icon{
+    margin-right: 10px;
 }
 .footer .info .phone_icon ,.footer .info .mail_icon{
     padding-bottom: 18px ;
@@ -328,13 +331,11 @@ a{
     .footer .info{
         height: 26px;
     }
-    .footer .info img {
-        margin-right: 10px;
-    }
     .footer .info .phone_icon, .footer .info .mail_icon {
         padding-bottom: 1px;
         width: 18px;
         height: 18px;
+        margin-right: 10px;
     }
     .footer_top .social-link li{
         padding-left: 24px;
@@ -344,7 +345,7 @@ a{
         height: 24px;
     }
 }
-@media(max-width: 375px){
+@media(max-width: 576px){
     .footer{
         height: 212px;
         padding:24px 15px;
@@ -380,6 +381,6 @@ a{
        padding-left: 0;
    }
    .container_f .info .contact_info{
-    font-size: 16px;
-}
+       font-size: 16px;
+   }
 }
