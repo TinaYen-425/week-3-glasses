@@ -1,0 +1,297 @@
+.content{
+    color: #000;
+}
+.content a{
+    color: #000;
+}
+.f-3{
+    font-size: 24px;
+}
+.title{
+    font-size: 32px;
+}
+.title_2{
+   font-size: 42px;
+   text-align: center;
+   font-weight: bold;
+}
+.mr-10{
+    margin-right: 10px;
+ }
+.mb-26{
+    margin-bottom: 104px;
+}
+.mb-40{
+    margin-bottom: 160px;
+}
+.p-y{
+    padding-top: 80px;
+    padding-bottom: 96px;
+}
+@media(max-width: 768px){
+   .title{
+       font-size: 24px;
+   }
+   .mb-0-md{
+       margin-bottom: 0;
+   }
+   .mb-18-md{
+       margin-bottom: 72px;
+   }
+   .mb-24-md{
+       margin-bottom: 96px;
+   }
+   .p-y-md{
+       padding-top: 56px;
+       padding-bottom: 65px;
+   }
+   .title_2{
+       font-size: 32px;
+   }
+}
+@media(max-width:375px){
+    .f-3{
+        font-size: 16px;}
+   .title{
+       font-size: 14px;
+   }
+   .mb-5-sm{
+       margin-bottom: 20px;
+   }
+   .mb-8-sm{
+       margin-bottom: 32px;
+   }
+   .mb-14-sm{
+       margin-bottom: 56px;
+   }
+   .mr-2-md{
+       margin-right: 2px;
+   }
+   .p-y-sm{
+       padding-top: 32px;
+       padding-bottom: 40px;
+   }
+   .title_2{
+       font-size: 20px;
+   }
+}
+/* css end  */
+.top_menu .menu{
+    display: flex;
+    justify-content: center;
+ } 
+ .top_menu .menu-list{
+     border-left: 1px solid #DCDCDC;
+}
+.top_menu .menu-list:last-child{
+    border-right: 1px solid #DCDCDC;
+}
+.menu-list .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0 16px 0;
+    width:369px;
+    border-bottom: 8px solid transparent;
+}
+.menu-list .bd-red{
+    border-bottom: 8px solid #AA0601;
+}
+.menu-list .title:hover{
+    border-bottom: 8px solid #AA0601;
+}
+.menu-list .title p{
+    display: inline-block;
+}
+.menu-list .title .sun-icon{
+    width: 42px;
+    height: 42px;
+}
+.menu-list .title .thunder-icon{
+    width: 44px;
+    height: 42px;
+}
+@media(max-width:768px){
+    .menu-list .title{
+        width: 229px;
+        padding: 14px 0 6px 0;
+        line-height: 1.3;
+    }
+    .menu-list .title .sun-icon{
+        width: 29px;
+        height: 29px;
+    }
+    .menu-list .title .thunder-icon{
+        width: 30px;
+        height: 26px;
+    }
+ }
+@media(max-width: 375px){
+    .menu-list .title{
+        width: 114px;
+        padding: 6px 0 2px 0;
+        border-bottom: 4px solid transparent;
+    }
+    .menu-list .title:hover{
+        border-bottom: 4px solid #AA0601;
+    }
+    .menu-list .title .sun-icon{
+        width: 14px;
+        height: 14px;
+    }
+    .menu-list .title .thunder-icon{
+        width: 16px;
+        height: 14px;
+    }
+}
+/* top_menu end */
+
+.optical-pic ul{
+    display: flex;
+}
+.optical-pic li{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-1.png?raw=true) no-repeat;
+    width: 960px;
+    height: 304px;
+    background-position: center center;
+    background-size: cover;
+}
+.optical-pic li:last-child{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-2.png?raw=true) no-repeat;
+    width: 960px;
+    height: 304px;
+    background-position: center center;
+    background-size: cover;
+}
+@media(max-width:768px){
+   .optical-pic li, .optical-pic li:last-child {
+       width: 384px;
+       height: 304px;
+   }
+}
+@media(max-width: 375px){
+    .optical-pic li, .optical-pic li:last-child {
+        width: 188px;
+        height: 148px;
+    }
+}
+/* optical-pic end */
+.products .title{
+   font-weight: normal;
+   letter-spacing: 1px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product .product-item{
+    max-width: 23%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.product-item .glasses-pic{
+   width: 255px;
+   height: 164px;
+}
+.product-item .content{
+    display: flex;
+    justify-content: space-between;
+}
+.product-item .content .amount{
+    color: #AA0601;
+    font-weight: bold;
+}
+.colors{
+    display: flex;
+}
+.colors .color{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+.color_1{
+    background: #5F3E2D;
+}
+.color_2{
+    background: #B75929;
+}
+
+@media(max-width:768px){
+    .products .title{
+        font-size: 24px;
+    }
+    .product .product-item{
+        max-width: 48%;
+    }
+    .product-item .glasses-pic{
+        width: 330px;
+    }
+
+@media(max-width: 375px){
+    .products .title{
+        font-size: 16px;
+    }
+    .product .product-item{
+        max-width: 98%;
+    }
+    .colors .color{
+        width: 15px;
+        height: 16px;
+        border-radius: 4px;
+        margin-right: 4px;
+    }
+}}
+
+/* products end */
+.pagination .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination ul{
+    display: flex;
+}
+.pagination li{
+    border-right: 1px solid #555555;
+    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+}
+.pagination li:last-child{
+    background: #F2F2F2;
+}
+.pagination li:first-child{
+    border-left: 1px solid #555555;
+}
+.pagination li a{
+    font-size: 18px;
+    display: block;
+    padding: 12px 16px;
+    color: #555555;
+}
+.pagination li a:hover{
+    color: #fff;
+    background: #000;
+}
+.pagination .f-4{
+    font-size: 19px;
+}
+@media(max-width: 375px){
+    .pagination .container{
+        padding: 0 15px;
+    }
+   .pagination li a{
+    font-size: 16px;
+    padding: 12px 15px;
+}
+.pagination .f-4{
+    width: 75px;
+    font-size: 17px;
+}
+.pagination .f-4 a{
+    display: block;
+    padding: 12px;
+}
+ }
+/* pagination end */

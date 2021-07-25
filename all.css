@@ -225,7 +225,6 @@ a{
     white-space: nowrap;
     padding-left: 49px;
 }
-
 .header .menu{
     display: flex;
 }
@@ -244,7 +243,7 @@ a{
         padding: 2px 0;
     }
 }
-@media(max-width: 576px){
+@media(max-width: 375px){
     .header{
         height: auto;
         flex-wrap: wrap;
@@ -268,22 +267,20 @@ a{
    }
    .header .menu a{
        padding: 8px 9px;
-       border-top: 2px solid #fff;
-       border-bottom: 1px solid #fff;
-   }
-   .border-r{
-       border-right: 1px solid #fff;
+       border-top: 1px solid #fff;
    }
    .border-l{
-       border-left: 1px solid #fff;  
-   }
+        border-left: 1px solid #fff;  
+    }
    .header .menu a:hover{
-       border-bottom: 1px solid #fff;
+       border-bottom: none;
+       background: rgb(191, 88, 105);
    }
    .header .menu-list:hover{
        background: rgb(191, 88, 105);
    }
 }
+
 /* header end */
 .banner{
     background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
@@ -674,7 +671,6 @@ a{
 .footer{
     background: #AA0601;
     color: #fff;
-    height: 333px;
 }
 .footer_top,.footer_bot,.footer_top .menu, .social-link,.privacy{
     display: flex;
@@ -722,7 +718,6 @@ a{
 }
 @media (max-width: 768px){
     .footer{
-        height: 241px;
         padding-left:43px;
         padding-right: 39px;
     }
@@ -759,7 +754,6 @@ a{
 }
 @media(max-width: 576px){
     .footer{
-        height: 212px;
         padding:24px 15px;
         position: relative;
     }
@@ -773,7 +767,7 @@ a{
        display: none;
    }
    .container_f{
-       width: 300px;
+       width: 200px;
        height: 100px;
        position: absolute;
        top: 24px;
@@ -795,4 +789,11 @@ a{
    .container_f .info .contact_info{
        font-size: 16px;
    }
+   .footer .info:hover{
+    font-weight: normal;
+   }
+   .footer .info a:hover{
+       color:rgb(191, 88, 105);
+   }
+}
 }
